@@ -1,0 +1,17 @@
+@keyframes moveUP {
+  /* moveup is the name of our animation */
+  0% {
+    /* we want it to be this way at 0% */
+    transform: translateY(100%);
+  }
+  50% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.moveUP {
+  animation: moveUP 0.8s 1 linear;
+}

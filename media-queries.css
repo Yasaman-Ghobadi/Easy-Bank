@@ -1,0 +1,165 @@
+
+/* MOBILE RESPONSIVE MENU QUERIES */
+@media screen and (max-width: 832px) {
+    nav .btn {
+        display: none;
+    }
+    .btn {
+        margin-left: auto;
+        margin-right: auto;
+    } 
+
+    .hamburger {
+        display: inline-block;
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        cursor: pointer;
+    }
+
+    .hamburger img {
+        width: 3rem;
+    }
+
+    .nav-ul {
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        padding: 1rem 0;
+        margin-top: 4rem;
+        background-color: var(--white);
+        border: 1px solid skyblue;
+        border-radius: .3rem;
+        transform: translateY(-200%);
+        transition: all .5s;
+        z-index: 999;
+        box-shadow: 1px 2px 10px black;
+    }
+
+    .nav-ul li {
+        padding: 1rem 0;
+        font: 1.6rem;
+    }
+
+    li a {
+        color: var(--dark-blue);
+        font-weight: 400;
+    }
+
+    li a:hover {
+        color: var(--lime-green);
+    *}
+
+    nav ul li a:hover::before {
+        opacity: 0;
+    }
+
+    /* SLIDE THE MENU WHEN THE HAMBURGER IS CLICKED */
+
+    #toggle:checked ~ .nav-ul {
+       transform: translateY(1%); 
+    }
+
+    #toggle:checked ~ .hamburger {
+        border: 1px solid red;
+        border-radius: .3rem;
+        padding: .4rem;
+    }
+}
+
+/* MEDIA QUERY FOR THE WELCOME SECTION */
+/* FROM MOBILE TO TABLET */
+@media screen and (min-width: 501px) and (max-width: 769px) {
+    .welcome-image {
+        display: inline-block;
+        text-align: center;
+        height: 38rem;
+    }
+
+    .welcome-image::before {
+        top: -35rem;
+        right: 0;
+        width: 65rem;
+        height: 83rem;
+        background-image: url(./images/bg-intro-desktop.svg);
+    }
+
+    .welcome-image img {
+        width: 70%;
+        height: 48rem;
+        transform: translateY(-15rem);
+    }
+}
+
+/* FROM TABLET TO LAPTOP */
+@media screen and (min-width: 770px) {
+    .welcome-section {
+        padding: 3rem 0 1rem 0;
+    }
+
+    .welcome {
+        flex-direction: row;
+    }
+
+    .welcome-image::before {
+        display: none;
+    }
+    .welcome-text {
+        text-align: left;
+        padding: 5rem 0;
+        width: 85%;
+    }
+
+    .welcome-image {
+        width: 100%;
+        position: relative;
+    }
+
+    .welcome-image img {
+        position: absolute;
+        width: 40rem;
+        height: 65rem;
+        top: -3rem;
+        right: 0;
+        z-index: 1;
+    }
+
+    /* MEDIA QUERY FOR ABOUT SECTION */
+    .about-text {
+        width: 50%;
+        text-align: left;
+    }
+
+    .about-item-box {
+        text-align: left;
+    }
+}
+
+/* 
+    ******** article section ********
+    ******** article section ********
+    ******** article section ******** */
+    @media screen and (max-width:995px) {
+
+        .article-box h4:hover {
+            cursor: pointer; 
+            color: var(--lime-green); }
+        }
+       
+        /* it works without this style too but with more delay dont know why */
+
+    /* MEDIA QUERY FOR FOOTER */
+    /* MEDIA QUERY FOR FOOTER */
+    /* MEDIA QUERY FOR FOOTER */
+    @media screen and (max-width:569px){
+       
+          .footer-links, .footer-credit, .footer-icons, .footer-logo {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+          } 
+
+        
+    }
+              
