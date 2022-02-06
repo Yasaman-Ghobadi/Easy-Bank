@@ -5,7 +5,7 @@ This projects includes:
 1.HTML5 
 2.CSS3
 3.Flexbox
-4.Css grid
+4.Css grid 
 
 Important notes:
 
@@ -14,13 +14,13 @@ Important notes:
 3. It includes Css animation
 4. It does not contain Js.
 
-This project is currently available on this site:
+•This project is currently available on this site:
 https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN
 
-The video which explains the projects' process:
+•The video which explains the projects' process:
 https://www.youtube.com/watch?v=qkYsiVcvb1o
 
-The source code:
+•The source code:
 https://github.com/zinotrust/easybank
 
 
