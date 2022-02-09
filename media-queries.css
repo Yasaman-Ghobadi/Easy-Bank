@@ -1,13 +1,13 @@
-
 /* MOBILE RESPONSIVE MENU QUERIES */
 @media screen and (max-width: 832px) {
     nav .btn {
         display: none;
     }
+
     .btn {
         margin-left: auto;
         margin-right: auto;
-    } 
+    }
 
     .hamburger {
         display: inline-block;
@@ -49,7 +49,8 @@
 
     li a:hover {
         color: var(--lime-green);
-    *}
+        
+    }
 
     nav ul li a:hover::before {
         opacity: 0;
@@ -57,14 +58,14 @@
 
     /* SLIDE THE MENU WHEN THE HAMBURGER IS CLICKED */
 
-    #toggle:checked ~ .nav-ul {
-       transform: translateY(1%); 
-       top: 50px;
+    #toggle:checked~.nav-ul {
+        transform: translateY(1%);
+        top: 50px;
 
-       
+
     }
 
-    #toggle:checked ~ .hamburger {
+    #toggle:checked~.hamburger {
         border: 1px solid red;
         border-radius: .3rem;
         padding: .4rem;
@@ -74,7 +75,7 @@
 /* MEDIA QUERY FOR THE WELCOME SECTION */
 /* FROM MOBILE TO TABLET */
 @media screen and (min-width: 501px) and (max-width: 769px) {
-    
+
 
     .welcome-image::before {
 
@@ -112,6 +113,7 @@
     .welcome-image::before {
         display: none;
     }
+
     .welcome-text {
         text-align: left;
         padding: 5rem 0;
@@ -147,27 +149,33 @@
     ******** article section ********
     ******** article section ********
     ******** article section ******** */
-    @media screen and (max-width:995px) {
+@media screen and (max-width:995px) {
 
-        .article-box h4:hover {
-            cursor: pointer; 
-            color: var(--lime-green); }
-        }
-       
-        /* it works without this style too but with more delay dont know why */
-
-    /* MEDIA QUERY FOR FOOTER */
-    /* MEDIA QUERY FOR FOOTER */
-    /* MEDIA QUERY FOR FOOTER */
-    @media screen and (max-width:569px){
-       
-          .footer-links, .footer-credit, .footer-icons, .footer-logo {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            text-align: center;
-          } 
-
-        
+    .article-box h4:hover {
+        cursor: pointer;
+        color: var(--lime-green);
     }
-              
+}
+
+/* it works without this style too but with more delay dont know why */
+
+/* MEDIA QUERY FOR FOOTER */
+/* MEDIA QUERY FOR FOOTER */
+/* MEDIA QUERY FOR FOOTER */
+@media screen and (max-width:569px) {
+
+    .footer-links, .footer-credit, .footer-icons, .footer-logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+
+}
+
+@media  (min-width:857px) {
+    .footer-links {
+        text-align:initial;
+      }
+}

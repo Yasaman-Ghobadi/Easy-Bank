@@ -202,8 +202,8 @@ nav ul li a:hover::before {
 .welcome-image img {
   width: 100%;
   height: 38rem;
-  transform: translatez(10px) translateY(-1rem); 
-  
+  transform: translatez(10px) translateY(-1rem);
+
 
 }
 
@@ -323,7 +323,7 @@ nav ul li a:hover::before {
 }
 
 .article-box h4:hover {
-  cursor: pointer; 
+  cursor: pointer;
   color: var(--lime-green);
 }
 
@@ -344,6 +344,7 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   row-gap: 4rem;
   column-gap: 2rem;
+  text-align: center;
 }
 
 
@@ -353,7 +354,7 @@ footer {
 }
 
 .footer-icons {
-margin-top: 4rem;
+  margin-top: 4rem;
 }
 
 .footer-links ul li {
