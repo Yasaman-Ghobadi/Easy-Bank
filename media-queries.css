@@ -74,25 +74,29 @@
 /* MEDIA QUERY FOR THE WELCOME SECTION */
 /* FROM MOBILE TO TABLET */
 @media screen and (min-width: 501px) and (max-width: 769px) {
-    .welcome-image {
-        display: inline-block;
-        text-align: center;
-        height: 38rem;
-    }
+    
 
     .welcome-image::before {
-        top: -35rem;
+
         right: 0;
         width: 65rem;
-        height: 83rem;
+
         background-image: url(./images/bg-intro-desktop.svg);
     }
 
     .welcome-image img {
-        width: 70%;
-        height: 48rem;
-        transform: translateY(-15rem);
+        width: auto;
+        height: 43rem;
+        transform: translateY(-3rem);
     }
+}
+
+
+@media (min-width:375px) {
+    .welcome-image img {
+        width: auto;
+    }
+
 }
 
 /* FROM TABLET TO LAPTOP */
@@ -121,10 +125,10 @@
 
     .welcome-image img {
         position: absolute;
-        width: 40rem;
-        height: 65rem;
-        top: -3rem;
-        right: 0;
+
+        height: 45rem;
+
+        right: 1rem;
         z-index: 1;
     }
 

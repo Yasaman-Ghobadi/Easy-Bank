@@ -201,8 +201,10 @@ nav ul li a:hover::before {
 
 .welcome-image img {
   width: 100%;
-  height: 48rem;
-  transform: translateY(-15rem);
+  height: 38rem;
+  transform: translatez(10px) translateY(-1rem); 
+  
+
 }
 
 .welcome-text {
