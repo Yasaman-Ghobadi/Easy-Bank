@@ -40,15 +40,25 @@
     .nav-ul li {
         padding: 1rem 0;
         font: 1.6rem;
+        width: 100%;
+        text-align: center;
     }
 
     li a {
         color: var(--dark-blue);
         font-weight: 400;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+
+
+
+
     }
 
     li a:hover {
         color: var(--lime-green);
+        background-color: var(--very-light-gray);
         
     }
 
