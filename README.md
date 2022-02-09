@@ -7,6 +7,11 @@ This projects includes:
 3.Flexbox
 4.Css grid 
 
+•The Demo Link of the website hosted by GitHub Pages:
+
+https://yasaman-ghobadi.github.io/Easy-Bank/
+
+
 Important notes:
 
 1. It is responsive in most devices (Media Query is also included)
