@@ -119,8 +119,15 @@ li a {
   font-size: 1.6rem;
   text-decoration: none;
   color: var(--grayish-blue);
-  padding: 2rem 0;
   position: relative;
+}
+.nav-ul li a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: var(--grayish-blue);
+  position: relative;
+  padding: 2rem 0;
+
 }
 
 li a:hover {
