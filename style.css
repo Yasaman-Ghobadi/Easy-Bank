@@ -10,6 +10,7 @@
 html {
   font-family: "Public Sans", sans-serif;
   font-size: 10px;
+  scroll-behavior: smooth;
   /* This is the root for rem  */
 }
 
