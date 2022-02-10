@@ -32,7 +32,8 @@
         border-radius: .3rem;
         transform: translateY(-200%);
         transition: all .5s;
-        
+        position: absolute;
+        right: 50%;
         top: -100%;
         box-shadow: 1px 2px 10px black;
     }
@@ -69,7 +70,7 @@
     /* SLIDE THE MENU WHEN THE HAMBURGER IS CLICKED */
 
     #toggle:checked~.nav-ul {
-        transform: translateY(1%);
+        transform: translate(50%,1%);
         top: 50px;
 
 
