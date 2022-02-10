@@ -27,7 +27,7 @@ section {
   padding: 5rem 0;
 }
 
-.container {
+.container-important {
   width: 100%;
   max-width: 120rem;
   margin: 0 auto;
@@ -145,7 +145,7 @@ nav ul li a:hover::before {
   transform: scaleX(1);
 }
 
-.btn {
+.btn-important {
   font-size: 1.5rem;
   color: var(--white);
   font-weight: 700;
@@ -161,7 +161,7 @@ nav ul li a:hover::before {
   text-align: center;
 }
 
-.btn:hover {
+.btn-important:hover {
   /* opacity: 0.8; */
   transform: scaleX(1.1) !important;
   color: var(--dark-blue);
@@ -370,7 +370,7 @@ footer {
   color: var(--lime-green);
 }
 
-/* .footer-btn {
+/* .footer-btn-important {
   padding-left: 4rem;
 } */
 
