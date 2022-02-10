@@ -1,13 +1,13 @@
-
 /* MOBILE RESPONSIVE MENU QUERIES */
 @media screen and (max-width: 832px) {
-    nav .btn {
+    nav .btn-important {
         display: none;
     }
-    .btn {
+
+    .btn-important {
         margin-left: auto;
         margin-right: auto;
-    } 
+    }
 
     .hamburger {
         display: inline-block;
@@ -24,31 +24,44 @@
     .nav-ul {
         flex-direction: column;
         width: 90%;
-        margin: 0 auto;
-        padding: 1rem 0;
+        
+        margin:0 auto;
         margin-top: 4rem;
         background-color: var(--white);
         border: 1px solid skyblue;
         border-radius: .3rem;
         transform: translateY(-200%);
         transition: all .5s;
-        z-index: 999;
+        position: absolute;
+        right: 50%;
+        top: -100%;
         box-shadow: 1px 2px 10px black;
     }
 
     .nav-ul li {
         padding: 1rem 0;
         font: 1.6rem;
+        width: 100%;
+        text-align: center;
     }
 
     li a {
         color: var(--dark-blue);
         font-weight: 400;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+
+
+
+
     }
 
     li a:hover {
         color: var(--lime-green);
-    *}
+        background-color: var(--very-light-gray);
+        
+    }
 
     nav ul li a:hover::before {
         opacity: 0;
@@ -56,11 +69,14 @@
 
     /* SLIDE THE MENU WHEN THE HAMBURGER IS CLICKED */
 
-    #toggle:checked ~ .nav-ul {
-       transform: translateY(1%); 
+    #toggle:checked~.nav-ul {
+        transform: translate(50%,1%);
+        top: 50px;
+
+
     }
 
-    #toggle:checked ~ .hamburger {
+    #toggle:checked~.hamburger {
         border: 1px solid red;
         border-radius: .3rem;
         padding: .4rem;
@@ -70,25 +86,29 @@
 /* MEDIA QUERY FOR THE WELCOME SECTION */
 /* FROM MOBILE TO TABLET */
 @media screen and (min-width: 501px) and (max-width: 769px) {
-    .welcome-image {
-        display: inline-block;
-        text-align: center;
-        height: 38rem;
-    }
+
 
     .welcome-image::before {
-        top: -35rem;
+
         right: 0;
         width: 65rem;
-        height: 83rem;
+
         background-image: url(./images/bg-intro-desktop.svg);
     }
 
     .welcome-image img {
-        width: 70%;
-        height: 48rem;
-        transform: translateY(-15rem);
+        width: auto;
+        height: 43rem;
+        transform: translateY(-3rem);
     }
+}
+
+
+@media (min-width:375px) {
+    .welcome-image img {
+        width: auto;
+    }
+
 }
 
 /* FROM TABLET TO LAPTOP */
@@ -104,6 +124,7 @@
     .welcome-image::before {
         display: none;
     }
+
     .welcome-text {
         text-align: left;
         padding: 5rem 0;
@@ -117,10 +138,10 @@
 
     .welcome-image img {
         position: absolute;
-        width: 40rem;
-        height: 65rem;
-        top: -3rem;
-        right: 0;
+
+        height: 45rem;
+
+        right: 1rem;
         z-index: 1;
     }
 
@@ -139,27 +160,33 @@
     ******** article section ********
     ******** article section ********
     ******** article section ******** */
-    @media screen and (max-width:995px) {
+@media screen and (max-width:995px) {
 
-        .article-box h4:hover {
-            cursor: pointer; 
-            color: var(--lime-green); }
-        }
-       
-        /* it works without this style too but with more delay dont know why */
-
-    /* MEDIA QUERY FOR FOOTER */
-    /* MEDIA QUERY FOR FOOTER */
-    /* MEDIA QUERY FOR FOOTER */
-    @media screen and (max-width:569px){
-       
-          .footer-links, .footer-credit, .footer-icons, .footer-logo {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            text-align: center;
-          } 
-
-        
+    .article-box h4:hover {
+        cursor: pointer;
+        color: var(--lime-green);
     }
-              
+}
+
+/* it works without this style too but with more delay dont know why */
+
+/* MEDIA QUERY FOR FOOTER */
+/* MEDIA QUERY FOR FOOTER */
+/* MEDIA QUERY FOR FOOTER */
+@media screen and (max-width:569px) {
+
+    .footer-links, .footer-credit, .footer-icons, .footer-logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+
+}
+
+@media  (min-width:857px) {
+    .footer-links {
+        text-align:initial;
+      }
+}
