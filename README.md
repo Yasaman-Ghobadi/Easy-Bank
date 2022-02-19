@@ -1,6 +1,6 @@
 # Easy-Bank
 
-This projects includes:
+This project includes:
 
 1. HTML5 
 2. CSS3 (Flexbox, Css grid, Css animation) 
@@ -9,7 +9,6 @@ This projects includes:
 
 
 •The Demo of the website hosted by GitHub Pages: [Click Here!](https://yasaman-ghobadi.github.io/Easy-Bank/)
-
 
 •This project is currently available [on this site](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN).
 
